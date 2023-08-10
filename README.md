@@ -17,14 +17,16 @@ $ php artisan key:generate //產生專案APP_KEY
 ```
 $ composer install //安裝 php套件
 ```
-===
+
 api 測試
 ===
+```
 127.0.0.1/api/convert?source=USD&target=JPY&amount=$170496.53
-===
+```
+
 test 測試
 ===
-至專案目錄下下commline
+至專案目錄下執行以下命令:
 ```
-php artisan test
+$ php artisan test
 ```
